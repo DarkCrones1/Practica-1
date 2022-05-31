@@ -1,0 +1,96 @@
+body{
+    background-color: aquamarine
+}
+
+/*Css para barra nav*/
+nav{
+    list-style: none;
+    padding: 0;
+    background-color: transparent;
+    width: 1000px;
+    height: 100px;;
+    margin: auto;
+    border: solid;
+    text-align: center;
+    background-color:green;
+    display: flex;
+    flex-direction: row;
+
+}
+.box{
+    width: 180px;
+    height: 60px;
+    background: #fff;
+    margin: 20px;
+}
+
+/*Css para header*/
+header{
+    width: 1000px;
+    height: 300px;
+    display: inline-block;
+    background: blue;
+    text-align: center;
+    margin: auto;
+    border: solid;
+    display: flex;
+}
+.banner{
+width: 800px;
+height: 90%;
+margin: 20px;
+background: #fff;
+}
+.opciones
+{
+    width: 200px;
+    height: 90%;
+    flex-direction: row;
+    margin: 10px;
+}
+.opciones div{
+    width: 180px;
+    height: 31%;
+    margin: 10px;
+    background: #fff;
+}
+
+/*Css para main*/
+
+main{
+    width: 1000px;
+    height: 500px;
+    display: inline-block;
+    background-color: burlywood;
+    text-align: center;
+    margin: auto;
+    border: solid;
+    display: flex;
+
+}
+
+#article{
+    width: 500px;
+    height: 95%;
+    margin: auto;
+    background-color: white;
+}
+
+main aside{
+    width: 200px;
+    height: 95%;
+    background-color: yellow;
+    margin: auto;
+}
+
+/*Css para el footer*/
+footer{
+    width: 1000px;
+    height: 50px;
+    display: inline-block;
+    background-color: goldenrod;
+    text-align: center;
+    margin: auto;
+    border: solid;
+    display: flex;
+}
