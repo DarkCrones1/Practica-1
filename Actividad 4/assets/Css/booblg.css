@@ -1,0 +1,73 @@
+body{
+    width: auto;
+    height: auto;
+    background-color: gainsboro;
+}
+li{
+    margin-left: 10px;
+    list-style: none;
+    border-left: solid;
+    padding-left: 10px;
+}
+
+/* Css para el nav superior */
+nav#navtop{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul#left{
+    width: 80%;
+    display: flex;
+    justify-content: start;
+}
+ul#right{
+    width: 20%;
+    display: flex;
+    justify-content: end;
+}
+
+
+/* Css apra el header */
+
+header{
+    text-align: center;
+    margin: 15% 0px 0px;
+}
+
+/* Css para el main */
+
+main{
+    text-align: center;
+    margin: 0% 0% 15%;
+}
+div#busqueda{
+    display: flex;
+    justify-content: center;
+}
+#barrabusqueda{
+    width: 40%;
+    height: 40px;
+    margin-top: 15px;
+
+}
+ul#boogleadd{
+    padding: 0px;
+}
+ul#boogleadd li{
+    border: none;
+}
+/* Css para el footer */
+
+nav{
+    text-align: center;
+}
+
+ul#navbot{
+    display: flex;
+    justify-content: center;
+}
+
+ul#navbot li{
+    margin: 10px 15px 10px;
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="/assets/Css/formularios.css">
+<body>
+    <!-- header+main+footer -->
+    <heder>
+
+    </heder>
+    <main>
+        <!-- section*10 -->
+        <form>
+            <section>
+                <label for="Apellido">Apellido</label>
+                <div class="uno">
+                    <input type="text" id="Apellido" placeholder="Apellidos">
+                </div>
+            </section>
+            <section>
+                <label for="Nombres">Nombre</label>
+                <div class="uno">
+                    <input type="text" name="Nombres" id="Nombres" placeholder="Nombres">
+                </div>
+            </section>
+            <section>
+                <label for="born">Fecha de Nacimiento</label>
+                <div class="multi">
+                    <input type="number" name="born" id="day" placeholder="Dia" max="31" min="1">
+                    <input type="number" name="born" id="month" placeholder="Mes" max="12" min="1">
+                    <input type="number" name="born" id="year" placeholder="Año"  min="1900" minleght="4" max="2050" maxlength="4">
+                </div>
+            </section>
+            <section>
+                <label for="ciudad">Ciudad de Nacimiento</label>
+                <div class="uno">
+                    <input type="text" name="ciudad" id="ciudad" placeholder="Ciudad de Nacimiento">
+                </div>
+            </section>
+            <section>
+                <label for="pais">Pais de Nacimiento</label>
+                <div class="uno">
+                    <select name="pais" id="pais">
+                        <option value="null"></option>
+                        <option value="México">México</option>
+                        <option value="EUA">EUA</option>
+                        <option value="Canada">Canada</option>
+                    </select>
+                </div>
+            </section>
+            <section>
+                <label for="nacionalidad">Nacionalidad</label>
+                <div class="uno">
+                    <input type="text" name="nacionalidad" id="nacionalidad" placeholder="Nacionalidad">
+                </div>
+            </section>
+            <section>
+                <label for="numberpassport">Número de pasaporte</label>
+                <div class="uno">
+                    <input type="number" name="numberpassport" id="numberpassport" placeholder="# pasaporte" min="0" minlength="0">
+                </div>
+            </section>
+            <section>
+                <label for="paispassport">País donde ha sido tramitado su pasaporte</label>
+                <div class="uno">
+                    <select name="paispassport" id="paispassport">
+                        <option value="null"></option>
+                        <option value="Mpexico">México</option>
+                        <option value="EUA">EUA</option>
+                        <option value="Canada">Canada</option>
+                    </select>
+                </div>
+            </section>
+            <section>
+                <label for="fp">Fecha de trámite del pasaporte</label>
+                <div class="multi">
+                    <input type="number" name="fp" id="dayp" placeholder="Dia" max="31" min="1">
+                    <input type="number" name="fp" id="monthp" placeholder="Mes" max="12" min="1">
+                    <input type="number" name="fp" id="yearp" placeholder="Año"  min="1900" minleght="4" max="2050" maxlength="4">
+                </div>
+            </section>
+            <section>
+                <label for="fpb">Fecha de trámite del pasaporte</label>
+                <div class="multi">
+                    <input type="number" name="fpb" id="dayv" placeholder="Dia" max="31" min="1">
+                    <input type="number" name="fpb" id="monthv" placeholder="Mes" max="12" min="1">
+                    <input type="number" name="fpb" id="yearv" placeholder="Año"  min="1900" minleght="4" max="2050" maxlength="4">
+                </div>
+            </section>
+        </form>
+    </main>
+    <fooer>
+        <a href="/index.html">Inicio</a>
+    </fooer>
+</body>
+</html>
