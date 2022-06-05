@@ -1,0 +1,27 @@
+body{
+    width: auto;
+    height: auto;
+    background-color: gainsboro;
+}
+header{
+    text-align: center;
+}
+header img{
+    width: 800px;
+    height: 900px;
+}
+ul{
+    list-style: none;
+}
+section{
+    background-color: aliceblue;
+}
+
+table, th, td{
+    border-collapse: collapse;
+    border: 4px solid rgb(10, 110, 110);
+    background-color: darkturquoise;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px 20px 5px;
+}
